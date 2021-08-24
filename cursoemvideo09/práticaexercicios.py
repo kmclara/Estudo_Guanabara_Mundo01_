@@ -1,4 +1,4 @@
 
-frase = "Curso em video Python"
-print(frase.upper().count('o'))
+frase = "  Curso em video Python  "
+print(len(frase.strip()))
 
