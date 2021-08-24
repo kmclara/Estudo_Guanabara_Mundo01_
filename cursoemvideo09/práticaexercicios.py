@@ -1,4 +1,4 @@
 
-frase = "  Curso em video Python  "
-print(len(frase.strip()))
+frase = "Curso em video Python"
+print(frase.replace("Curso" , "Cursando"))
 
