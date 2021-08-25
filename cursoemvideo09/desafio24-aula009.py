@@ -1,10 +1,10 @@
 #DESAFIO 24
 
-city = str(input("Me indique o nome da sua cidade: "))
+city = str(input("Me indique o nome da sua cidade: ")).strip().capitalize()
 
 #indicar se tem o nome santo ou não na cidade:
 
-santo = "Santo" in city 
+santo = "Santo" in city
 
 #escrevendo o resultado: 
 
