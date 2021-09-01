@@ -1,13 +1,12 @@
 #Desafio 28 
 
-import random 
+from random import randint
 
-print(random.randint(0, 5))
-
-what = float(input("Qual o número escolhido? "))
+what = int(input("Qual o número escolhido? "))
 
 if what <= 5: 
-    print("Parabéns! Você acertou!")
+     n = randint(0, 5)
+     print("Eu escolhi no numero {}. Parabéns!".format(n))
 else: 
     print("Sua resposta está errada! Tente novamente!")
 print("Obrigada por jogar!")
