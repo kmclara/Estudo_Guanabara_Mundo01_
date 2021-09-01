@@ -1,14 +1,23 @@
 #Desafio 28 
 
 from random import randint
+from time import sleep
 
-what = int(input("Qual o número escolhido? "))
+#Computador gerando número aleatório:
+pc = randint(0, 5)
+print("_____"* 5) #Frufru
+print("Estou pensando em um número, você quer adivinhar? ")
+print("_____"* 5) #Frufru
 
-if what <= 5: 
-     n = randint(0, 5)
-     print("Eu escolhi no numero {}. Parabéns!".format(n))
+#Jogador tentando adivinhar
+player = str(input("Em que número estou pensando? "))
+print("PROCESSANDO ...")
+sleep(3)
+
+if player == pc:
+    print("Droga! Você me venceu!")
 else: 
-    print("Sua resposta está errada! Tente novamente!")
-print("Obrigada por jogar!")
+    print("Ganhei de você! Pensei no número {}! Quem sabe na próxima!".format(pc))
+print("Jogue de novo!")
 
 
