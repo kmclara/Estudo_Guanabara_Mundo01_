@@ -1,7 +1,7 @@
 #DESAFIO 30
 
 #Perguntando ao usuário um número:
-number = float(input("Digite um número: "))
+number = int(input("Digite um número: "))
 
 #Se?
 if (number%2) == 0:
