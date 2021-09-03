@@ -11,6 +11,13 @@ if b<a and b<c:
     menor = b 
 if c<a and c<b: 
     menor = c 
-print("O menor valor é {}".format(menor))
+
+#Verificando quem é o maior 
+maior = a 
+if b>a and b>c:
+    maior = b 
+if c>a and c>b:
+    maior = c 
+print("O menor valor é {} e o maior valor é {}!".format(menor, maior))
 
 
