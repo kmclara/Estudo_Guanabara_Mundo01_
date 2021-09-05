@@ -10,7 +10,7 @@ print("Estou pensando em um número, você quer adivinhar? ")
 print("_____"* 5) #Frufru
 
 #Jogador tentando adivinhar
-player = str(input("Em que número estou pensando? "))
+player = int(input("Em que número estou pensando? "))
 print("PROCESSANDO ...")
 sleep(3)
 
