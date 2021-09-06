@@ -4,7 +4,7 @@
 nome = str(input("Qual é seu nome? "))
 
 #If, elif and else. 
-if nome == "Maria Clara": 
+if nome == "Maria Clara":
     print("Que nome bonito! Parabéns!")
 elif nome == "Pedro" or nome == "Camila":
     print("Está quase lá! Seu nome é mediano!")   
