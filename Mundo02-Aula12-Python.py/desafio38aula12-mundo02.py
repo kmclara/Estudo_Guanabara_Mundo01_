@@ -23,3 +23,5 @@ elif numero2 == numero1:
 
 print("Obrigada por usar nosso programa!")
 
+#Não era necessário as linhas 11 e 16, pois estão 
+#dizendo o mesmo que as linhas 9 e 14. 
