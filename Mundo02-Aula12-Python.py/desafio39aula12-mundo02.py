@@ -29,4 +29,4 @@ print("Obrigada por usar nosso programa!")
 #Poderia  adicionar para complementar o programa em que ano 
 #O usuário deverá se alistar no if e else. 
 #Usando para if: anocomputador+falta 
-#Usando para else: anocomputador-passou
+#Usando para else: anocomputador-passou 
