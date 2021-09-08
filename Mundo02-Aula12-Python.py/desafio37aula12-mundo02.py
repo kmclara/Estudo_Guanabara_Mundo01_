@@ -23,3 +23,11 @@ else:
 
 #Final
 print("Obrigada por usar nosso programa!")
+
+#Observação: Linhas 16, 18 e 20 foram colocadas [2:] para realizar o fatiamento, pois,
+#logo no começo da conversão, na hora de dar o resultado ao usuário, o Python coloca as
+#iniciais das bases numericas junto ao resultado da conversão, e não precisamos dessa informação, 
+#pois já damos elas como opção do usuário para que ele escolha o método de conversão. 
+#Como o fatiamento entende que 2 é na verdade 3, pois ele sempre pula pra frente, coloca-se 2 para 
+#que ele entenda que é na verdade do 3 caracter para frente que deve aparecer ao usuário na hora de 
+#mostrar o resultado. 
