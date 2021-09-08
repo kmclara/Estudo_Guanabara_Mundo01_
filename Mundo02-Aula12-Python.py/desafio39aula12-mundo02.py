@@ -25,3 +25,8 @@ else:
     print("Você precisa se alistar! Já se Passou o tempo de alistamento de acordo com sua idade! \n Se passou {} anos!".format(passou))
 
 print("Obrigada por usar nosso programa!")
+
+#Poderia  adicionar para complementar o programa em que ano 
+#O usuário deverá se alistar no if e else. 
+#Usando para if: anocomputador+falta 
+#Usando para else: anocomputador-passou
