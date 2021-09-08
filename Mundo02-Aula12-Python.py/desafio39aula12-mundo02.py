@@ -14,6 +14,7 @@ idade = (anocomputador-nascimento)
 #Cálculo para mostrar quanto tempo falta ou se passou do ponto:
 idadecorreta = 18 
 falta = (idadecorreta - idade)
+passou = (idade - idadecorreta)
 
 #Se, se senão, senão?
 if idade < 18:
@@ -21,6 +22,6 @@ if idade < 18:
 elif idade == 18:
     print("Já é hora de se alistra no exercito militar!")
 else: 
-    print("Você precisa se alistar! Já se Passou o tempo de alistamento de acordo com sua idade!")
+    print("Você precisa se alistar! Já se Passou o tempo de alistamento de acordo com sua idade! \n Se passou {} anos!".format(passou))
 
 print("Obrigada por usar nosso programa!")
