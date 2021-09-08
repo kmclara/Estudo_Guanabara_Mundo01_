@@ -21,6 +21,6 @@ if idade < 18:
 elif idade == 18:
     print("Já é hora de se alistra no exercito militar!")
 else: 
-    ("Você precisa se alistar! Já se Passou o tempo de alistamento de acordo com sua idade!")
+    print("Você precisa se alistar! Já se Passou o tempo de alistamento de acordo com sua idade!")
 
 print("Obrigada por usar nosso programa!")
