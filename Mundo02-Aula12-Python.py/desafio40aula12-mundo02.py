@@ -11,7 +11,7 @@ print("De acordo com suas notas {} e {}, sua média é de {}.".format(nota1, not
 #Se, Se senão, senão?
 if médiaNota < 5.0:
     print("De acordo com sua média de {}, você foi reprovado por nota abaixo de 5.0. Estude mais!".format(médiaNota))
-elif médiaNota>5 and médiaNota<6.9:
+elif médiaNota>=5 and médiaNota<=6.9:
     print("De acordo com sua média {}, você está de recuperação".format(médiaNota))
 elif médiaNota >7.0:
     print("Parabéns! De acordo com sua média de {}, você foi aprovado!".format(médiaNota))
