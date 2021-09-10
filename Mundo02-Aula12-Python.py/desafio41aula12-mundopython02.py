@@ -5,7 +5,7 @@ from datetime import date
 dataComputador = date.today().year
 
 #Perguntando ao usuário seu ano de nascimento: 
-dataNascimento = int(input("Informe sua data de nascimento: "))
+dataNascimento = int(input("Informe seu ano de nascimento: "))
 
 #Cálculo para saber a idade do atleta:
 idadeAtleta = (dataComputador - dataNascimento)
